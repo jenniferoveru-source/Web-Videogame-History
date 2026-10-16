@@ -1,3 +1,3 @@
-Hola, esto es un readme
+If you would like to see my web click here
 
-![text](https://github.com/jenniferoveru-source/Web-Videogame-History/blob/main/imagenes/titulo.gif)
+![text](https://jenniferoveru-source.github.io/Web-Videogame-History/)
