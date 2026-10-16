@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#pantallaCompleta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(titulo.gif);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+#titulo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: "Doto", sans-serif;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px; /* reborde del título */
+    -webkit-text-stroke-color: black; /* color del reborde */
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+#botones a {
+    text-decoration: none; /* quita subrayado y azul de los enlaces */
+    color: rgba(255, 255, 255);
+    padding: 10px;
+    background-color: rgba(227, 94, 245, 0.88);
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.columnas {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.853);
+    background-color: rgba(227, 94, 245, 0.88);
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 30px; /* espaciado entre líneas */
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;          /* salta de línea si no caben */
+    justify-content: center;  /* centra las consolas */
+}
+
+.ColumnaConsolas {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 350px;
+    margin: 20px;
+}
+
+.imagen {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;      /* imagen completa sin deformar */
+}
+
+.copyright {
+    display: flex;
+    color: rgba(255, 255, 255, 0.853);
+    background-color: rgba(227, 94, 245, 0.88);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
