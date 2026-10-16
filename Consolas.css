@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background-image: url(titulo.gif);
+    background-image: url(imagenes/titulo.gif);
     background-size: 100%;
     background-repeat: repeat;
 }
