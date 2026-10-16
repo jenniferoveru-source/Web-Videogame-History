@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destripando Consolas</title>
+    <link rel="stylesheet" href="Contactanos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- estas es una fuente que me he descargado de goggle fonts y las he aplicado en CSS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="pantallaCompleta">
+        <div id="titulo">
+            <h1>DESTRIPANDO CONSOLAS</h1>
+        </div>
+        <div id="botones">
+            <a href="Inico.html">Inicio</a>
+            <a href="Consolas.html">Consolas</a>
+            <a href="Contactanos.html">Contáctanos</a>
+        </div>
+        <div id="formulario">
+                    <form action="procesar.html" method="post">
+                        <h4>¿Tienes alguna pregunta? Envianosla con el siguiente formulario:</h4>
+                        <div class="input-group">
+                            <label for="nombreUsuario">Nombre:</label> 
+                            <input type="text" id="nombreUsuario" name="nombreUsuario" placeholder="Inserte el Nombre">
+                            <label for="emailUsuario">Email:</label > 
+                            <input type="email" id="emailUsuario" name="EmailUsuario" placeholder="Inserte el correo">
+                            <label for="textoFormulario">Pregunta:</label>
+                            <textarea name="textoFormulario" id="textoFormulario" cols="30" rows="5" placeholder="Pregunta"></textarea>
+                        </div>
+                        <p>Al enviar el formulario acepta los <a href="#">Terminos y condiciones</a> y la <a href="#">Policitica de Privadad</a> de esta página. </p>
+                        <input type="submit" id="enviar" value="Enviar">
+                        <input type="reset" id="borrar" value="Borrar formulario">
+                    </form>  
+        </div>
+        <div class="copyright">
+            <p> &copy; 2026 Destripando Consolas </p>
+        </div>
+    </div>
+</body>
+    
+</html>  
